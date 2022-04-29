@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* body background */
+
+body{
+	background-color: #E7E7E7;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+/*---------- Header on the main page -----------*/ 
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(images/mainpage.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+/* header 1 for all of the pages apart from main */
+
+.header1{
+	
+	width: 100%;
+	background-image: url(images/mainpage.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+/*---------Navigation bar---------*/
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img{
+	width: 120px;
+}
+
+.navigation{
+	flex: 1;
+	text-align: right;
+}
+
+.navigation ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 8px 25px;
+	position: relative;
+}
+
+.navigation ul li a{
+	color: #E7E7E7;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.navigation ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #FFD100;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.navigation ul li:hover:after{
+	width: 100%;
+}
+
+/* Text box for main page */
+
+.text-box{
+	margin-top: 10px;
+	width: 80%;
+	color: #E7E7E7;
+	position: absolute;
+	top: 450px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text-box h1{
+	font-size: 50px;
+	color: #E7E7E7;
+}
+
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 16px;
+	color: #E7E7E7;
+}
+
+/* button along with the hover over effect on it */
+
+#button{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #FFF;
+	padding: 12px 30px;
+	font-size: 13px;
+	background-color: #none;
+	position: relative;
+	cursor: pointer;
+	border-radius: 12px;
+
+}
+
+#button:hover{
+	border: 1px solid #FFD100;
+	background: #FFD100;
+	transition: 1s;
+}
+
+/* lower section of the first page */
+.sectionOne{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.aboutInfo{
+	text-align: left;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: 400;
+}
+
+p{
+	color: #202020;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.column{
+	flex-basis: 20%;
+	background: #333533;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+
+
+}
+
+h3{
+	color: #D6D6D6;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+#p1{
+	color: #D6D6D6;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+	text-align: left;
+}
+
+/* Password generator */
+
+
+
+input{
+	padding: 20px;
+	user-select: none;
+	height: 25px;
+	width: 300px;
+	border: none;
+	outline: none;
+	font-size: 22px;
+	margin-top: 25px;
+
+}
+
+input:placeholder{
+	font-size: 23px;
+}
+
+
+.btn3{
+	margin-left: 15px;
+	margin-top: 35px;
+}
+
+.btn2{
+	margin-right: 15px;
+}
+
+
